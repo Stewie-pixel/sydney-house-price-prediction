@@ -1,0 +1,31 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter temporary files and checkpoints
+.ipynb_checkpoints/
+
+# Test, coverage, and build output
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local environment and IDE files
+.env
+.env.*
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
